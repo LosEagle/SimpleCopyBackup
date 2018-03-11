@@ -1,0 +1,17 @@
+{
+  "name": "simplebackup",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "author": "LosEagle",
+  "license": "GPL-2.0",
+  "private": false,
+  "scripts": {
+    "start": "node dist/index.js",
+    "watch": "coffee -o dist -cw index.coffee",
+    "compile": "coffee -o dist -c index.coffee"
+  },
+  "dependencies": {
+    "coffeescript": "^2.2.2",
+    "shelljs": "^0.8.1"
+  }
+}
